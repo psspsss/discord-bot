@@ -3,6 +3,7 @@ const { execute } = require("./ping");
 
 
 module.exports={
+    cooldown: 5,
     data: new SlashCommandBuilder()
         .setName('user')
         .setDescription('Provides information regarding the user. '),
